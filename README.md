@@ -32,3 +32,4 @@ Welcome to the React Chat App! This application provides a simple chat interface
 ![Screenshot 1](src/assets/screenshot1.jpeg)
 ![Screenshot 2](src/assets/screenshot2.jpg)
 ![Screenshot 3](src/assets/screenshot3.jpeg)
+![Screenshot 4](src/assets/screenshot4.jpeg)
