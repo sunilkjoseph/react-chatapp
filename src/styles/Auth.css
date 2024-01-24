@@ -1,14 +1,27 @@
 .auth {
     text-align: center;
-}
-
-.auth button {
-    width: 200px;
-    height: 50px;
+    margin-top: 50px; /* Add top margin for spacing */
+  }
+  
+  .auth p {
+    font-size: 20px; /* Adjust font size for better readability */
+    color: #333; /* Dark text color */
+  }
+  
+  .auth button {
+    width: 220px; /* Slightly increase button width for better visibility */
+    height: 60px; /* Increase button height for a more prominent appearance */
     border: none;
-    background-color: #3b5998;
+    background-color: #0fa901; /* Google Blue color */
     color: white;
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: 10px; /* Increase border-radius for rounded corners */
+    font-size: 20px;
     cursor: pointer;
-}
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+  
+  /* Hover effect for the button */
+  .auth button:hover {
+    background-color: #0fa901; /* Darker shade on hover for visual feedback */
+  }
+  

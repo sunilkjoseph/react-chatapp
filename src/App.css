@@ -6,58 +6,62 @@ body {
 .App {
   display: flex;
   align-items: center;
-  width: 100vw;
+  justify-content: center; /* Center horizontally */
   height: 100vh;
   flex-direction: column;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2; /* Light background color */
 }
 
 .app-header {
   text-align: center;
-  background-color: #3b5998;
+  background-color: #0fa901; /* Google Blue color */
   color: white;
   width: 100%;
+  padding: 15px; /* Add padding for a cleaner look */
 }
 
 .app-container {
-  margin-top: 50px;
+  margin-top: 20px; /* Reduce top margin for a sleeker appearance */
 }
 
 .room {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center items horizontally */
 }
 
 .room label {
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 15px; /* Slightly reduce bottom margin */
+  color: #333; /* Dark text color */
 }
 
 .room input {
-  width: 200px;
-  height: 30px;
-  border: 2px solid #3b5998;
-  border-radius: 6px;
-  padding-left: 5px;
-  font-size: 20px;
+  width: 300px; /* Increase input width for better visibility */
+  height: 40px; /* Increase input height for a cleaner look */
+  border: 2px solid #0fa901; /* Google Blue border color */
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 18px; /* Slightly reduce font size */
   text-align: center;
-  margin: 5px;
+  margin: 10px 0; /* Adjust vertical margin */
 }
+
 .room button {
-  width: 210px;
-  height: 40px;
+  width: 320px; /* Increase button width for a better user interface */
+  height: 45px; /* Increase button height for better visibility */
   border: none;
-  border-radius: 6px;
-  padding-left: 5px;
-  font-size: 20px;
+  border-radius: 8px;
+  font-size: 18px; /* Slightly reduce font size */
   text-align: center;
-  margin: 5px;
-  background-color: #3b5998;
+  margin: 10px 0;
+  background-color: #0fa901; /* Google Blue color */
   color: white;
   cursor: pointer;
 }
 
 .sign-out {
-  margin-top: 50px;
+  margin-top: 30px; /* Adjust top margin for better alignment */
 }
