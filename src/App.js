@@ -3,6 +3,7 @@ import { Chat } from "./components/Chat";
 import { Auth } from "./components/Auth.js";
 import { AppWrapper } from "./components/AppWrapper";
 import Cookies from "universal-cookie";
+import Footer from './components/Footer';
 import "./App.css";
 
 const cookies = new Cookies();
@@ -12,6 +13,7 @@ function ChatApp() {
   const [isInChat, setIsInChat] = useState(null);
   const [room, setRoom] = useState("");
 
+
   if (!isAuth) {
     return (
       <AppWrapper
@@ -20,6 +22,7 @@ function ChatApp() {
         setIsInChat={setIsInChat}
       >
         <Auth setIsAuth={setIsAuth} />
+        <Footer />
       </AppWrapper>
     );
   }
@@ -41,6 +44,7 @@ function ChatApp() {
       ) : (
         <Chat room={room} />
       )}
+      <Footer />
     </AppWrapper>
   );
 }

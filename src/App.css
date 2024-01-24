@@ -6,7 +6,7 @@ body {
 .App {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center horizontally */
+  /* justify-content: center; Center horizontally */
   height: 100vh;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -65,3 +65,4 @@ body {
 .sign-out {
   margin-top: 30px; /* Adjust top margin for better alignment */
 }
+
